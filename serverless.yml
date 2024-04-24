@@ -12,3 +12,13 @@ functions:
       - httpApi:
           path: /
           method: get
+
+  jcpost:
+    handler: index.posthandler
+    events:
+      - httpApi:
+          path: /
+          method: post
+
+plugins:
+  - serverless-offline

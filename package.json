@@ -15,5 +15,8 @@
     "url": "https://github.com/cmcheung001/My2ndLamdra_20240424/issues"
   },
   "homepage": "https://github.com/cmcheung001/My2ndLamdra_20240424#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "serverless-offline": "^13.3.4"
+  }
 }
